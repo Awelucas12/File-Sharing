@@ -3,19 +3,19 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # Configs
-API_HASH = os.environ['API_HASH']
-APP_ID = int(os.environ['APP_ID'])
-BOT_TOKEN = os.environ['BOT_TOKEN']
-TRACK_CHANNEL = int(os.environ['TRACK_CHANNEL'])
+API_HASH = os.environ['24115927']
+APP_ID = int(os.environ['749eb2e9353e4006adb00fc8b11c9333'])
+BOT_TOKEN = os.environ['7197204660:AAGZj5ubTPVuONDucO_N0quwrdPTU9S-6_8']
+TRACK_CHANNEL = int(os.environ[' @zionmainchannel'])
 OWNER_ID = os.environ['OWNER_ID']
 
 #Button
 START_BUTTONS=[
     [
-        InlineKeyboardButton('Source', url='https://github.com/X-Gorn/File-Sharing'),
-        InlineKeyboardButton('Project Channel', url='https://t.me/xTeamBots'),
+        InlineKeyboardButton('Source', url='https://t.me/zionmainchannel'),
+        InlineKeyboardButton('Project Channel', url='https://t.me/ZIONSUPPORTCHAT'),
     ],
-    [InlineKeyboardButton('Author', url="https://t.me/xgorn")],
+    [InlineKeyboardButton('Author', url="https://t.me/zion_owner")],
 ]
 
 # Running bot
